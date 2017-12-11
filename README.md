@@ -2,6 +2,8 @@
 
 Jenkins Slave for Gradle builds. Docker image based on Gradle official image.
 
+	https://hub.docker.com/r/jnonino/jenkins-slave-gradle/
+
 ## Tools Installed ##
 
 - Gradle
