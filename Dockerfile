@@ -15,7 +15,8 @@ RUN echo "Install Gradle 2.5" && \
 ENV GRADLE_HOME /opt/gradle
 ENV PATH $GRADLE_HOME/bin:$PATH
 
-RUN mkdir /ws
+RUN mkdir /ws && \
+    chmod 777 /ws
 WORKDIR /ws
 
 CMD ["/bin/sh"]
