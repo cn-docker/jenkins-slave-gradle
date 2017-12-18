@@ -5,7 +5,8 @@ USER root
 RUN apk add --no-cache git subversion mercurial wget curl unzip openssh ca-certificates procps bash && \
     rm -rf /var/cache/apk/*
 
-RUN mkdir /ws
+RUN mkdir /ws && \
+    chmod 777 /ws
 WORKDIR /ws
 
 CMD ["/bin/sh"]
