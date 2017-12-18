@@ -2,7 +2,7 @@ FROM openjdk:8-jdk-alpine
 LABEL maintainer="Julian Nonino <noninojulian@outlook.com>"
 
 USER root
-RUN apk add --no-cache git subversion mercurial wget curl unzip openssh ca-certificates procps && \
+RUN apk add --no-cache git subversion mercurial wget curl unzip openssh ca-certificates procps bash && \
     rm -rf /var/cache/apk/*
 
 # Install Gradle
