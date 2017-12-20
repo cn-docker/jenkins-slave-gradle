@@ -25,8 +25,10 @@ RUN wget https://github.com/sgerrand/alpine-pkg-glibc/releases/download/2.26-r0/
     wget https://github.com/sgerrand/alpine-pkg-glibc/releases/download/2.26-r0/glibc-i18n-2.26-r0.apk && \
     apk add --allow-untrusted glibc-i18n-2.26-r0.apk
 
-RUN mkdir /ws && \
-    chmod 777 /ws
-WORKDIR /ws
+RUN addgroup -S -g 10000 jenkins && \
+    adduser -S -u 10000 -h /home/jenkins -G jenkins jenkins
+
+USER jenkins
+WORKDIR /home/jenkins
 
 CMD ["/bin/sh"]
