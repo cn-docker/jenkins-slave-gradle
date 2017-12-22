@@ -8,6 +8,8 @@ RUN apk add --no-cache git subversion mercurial wget curl unzip openssh ca-certi
 RUN addgroup -S -g 10000 jenkins && \
     adduser -S -u 10000 -h /home/jenkins -G jenkins jenkins
 
+ENV GRADLE_USER_HOME /home/jenkins/.gradle
+
 USER jenkins
 WORKDIR /home/jenkins
 
