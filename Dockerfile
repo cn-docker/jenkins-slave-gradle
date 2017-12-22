@@ -17,7 +17,6 @@ RUN echo "Install Gradle 2.5" && \
     rm -rf gradle-2.5-bin.zip
 ENV GRADLE_HOME /opt/gradle
 ENV PATH $GRADLE_HOME/bin:$PATH
-ENV GRADLE_USER_HOME /home/jenkins/.gradle
 
 # Install GLibC
 RUN wget https://github.com/sgerrand/alpine-pkg-glibc/releases/download/2.26-r0/glibc-2.26-r0.apk && \
@@ -30,6 +29,7 @@ RUN wget https://github.com/sgerrand/alpine-pkg-glibc/releases/download/2.26-r0/
     apk add --allow-untrusted glibc-i18n-2.26-r0.apk
 
 USER jenkins
+ENV GRADLE_USER_HOME /home/jenkins/.gradle
 WORKDIR /home/jenkins
 
 CMD ["/bin/sh"]
