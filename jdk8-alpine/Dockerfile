@@ -1,5 +1,5 @@
 FROM gradle:jdk8-alpine
-LABEL maintainer="Julian Nonino <noninojulian@outlook.com>"
+LABEL maintainer="Julian Nonino <noninojulian@gmail.com>"
 
 USER root
 RUN apk add --no-cache git subversion mercurial wget curl unzip openssh ca-certificates procps bash && \

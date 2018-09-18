@@ -1,5 +1,5 @@
 FROM gradle:jdk10
-LABEL maintainer="Julian Nonino <noninojulian@outlook.com>"
+LABEL maintainer="Julian Nonino <noninojulian@gmail.com>"
 
 USER root
 
