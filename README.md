@@ -25,7 +25,7 @@ Jenkins Slave for Gradle builds. Docker image based on Gradle official image.
 ## Tools Installed ##
 
 - Gradle
-- Open Java JDK 8
+- Open Java JDK
 - Git
 - Mercurial
 - Subversion
