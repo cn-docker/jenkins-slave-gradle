@@ -1,4 +1,4 @@
-FROM gradle:jdk10
+FROM gradle:4.10-jdk8
 LABEL maintainer="Julian Nonino <noninojulian@outlook.com>"
 
 USER root

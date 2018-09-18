@@ -16,4 +16,4 @@ USER jenkins
 ENV GRADLE_USER_HOME /home/jenkins/.gradle
 WORKDIR /home/jenkins
 
-CMD ["/bin/sh"]
+CMD ["/bin/bash"]

@@ -1,4 +1,4 @@
-FROM gradle:jdk-alpine
+FROM gradle:4.10-jdk8-alpine
 LABEL maintainer="Julian Nonino <noninojulian@outlook.com>"
 
 USER root
