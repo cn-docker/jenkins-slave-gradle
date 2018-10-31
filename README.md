@@ -4,16 +4,6 @@ Jenkins Slave for Gradle builds. Docker image based on Gradle official image.
 
 	https://hub.docker.com/r/jnonino/jenkins-slave-gradle/
 
-## Docker Image Tags ##
-
--	[`latest` (*latest/Dockerfile*)](https://bitbucket.org/jnonino-devops-cloud/jenkins-slave-gradle/src/master/latest/Dockerfile)
--	[`alpine` (*alpine/Dockerfile*)](https://bitbucket.org/jnonino-devops-cloud/jenkins-slave-gradle/src/master/alpine/Dockerfile)
-
--	[`jdk10` (*jdk10/Dockerfile*)](https://bitbucket.org/jnonino-devops-cloud/jenkins-slave-gradle/src/master/jdk10/Dockerfile)
-
--	[`jdk8` (*jdk8/Dockerfile*)](https://bitbucket.org/jnonino-devops-cloud/jenkins-slave-gradle/src/master/jdk8/Dockerfile)
--	[`jdk8-alpine` (*jdk8-alpine/Dockerfile*)](https://bitbucket.org/jnonino-devops-cloud/jenkins-slave-gradle/src/master/jdk8-alpine/Dockerfile)
-
 ## Tools Installed ##
 
 - Gradle
