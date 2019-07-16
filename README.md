@@ -1,4 +1,4 @@
-# Jenkins Slave Gradle #
+# Jenkins Slave Gradle [![Docker hub](https://img.shields.io/docker/pulls/jnonino/jenkins-slave-gradle.svg)](https://hub.docker.com/r/jnonino/jenkins-slave-gradle/)
 
 Jenkins Slave for Gradle builds. Docker image based on Gradle official image.
 
