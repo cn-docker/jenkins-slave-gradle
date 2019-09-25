@@ -1,9 +1,9 @@
 # Jenkins Slave Gradle
 
-[![](https://img.shields.io/docker/pulls/jnonino/jenkins-slave-gradle.svg)](https://hub.docker.com/r/jnonino/jenkins-slave-gradle/)
-[![](hhttps://img.shields.io/docker/build/jnonino/jenkins-slave-gradle)](https://hub.docker.com/r/jnonino/jenkins-slave-gradle/)
-[![](https://img.shields.io/docker/automated/jnonino/jenkins-slave-gradle)](https://hub.docker.com/r/jnonino/jenkins-slave-gradle/)
-[![](https://img.shields.io/docker/stars/jnonino/jenkins-slave-gradle)](https://hub.docker.com/r/jnonino/jenkins-slave-gradle/)
+[![](https://img.shields.io/docker/pulls/cnservices/jenkins-slave-gradle.svg)](https://hub.docker.com/r/cnservices/jenkins-slave-gradle/)
+[![](hhttps://img.shields.io/docker/build/cnservices/jenkins-slave-gradle)](https://hub.docker.com/r/cnservices/jenkins-slave-gradle/)
+[![](https://img.shields.io/docker/automated/cnservices/jenkins-slave-gradle)](https://hub.docker.com/r/cnservices/jenkins-slave-gradle/)
+[![](https://img.shields.io/docker/stars/cnservices/jenkins-slave-gradle)](https://hub.docker.com/r/cnservices/jenkins-slave-gradle/)
 [![](https://img.shields.io/github/license/cn-cicd/jenkins-slave-gradle)](https://github.com/cn-cicd/jenkins-slave-gradle)
 [![](https://img.shields.io/github/issues/cn-cicd/jenkins-slave-gradle)](https://github.com/cn-cicd/jenkins-slave-gradle)
 [![](https://img.shields.io/github/issues-closed/cn-cicd/jenkins-slave-gradle)](https://github.com/cn-cicd/jenkins-slave-gradle)
@@ -12,7 +12,7 @@
 
 Jenkins Slave for Gradle builds. Docker image based on Gradle official image.
 
-	https://hub.docker.com/r/jnonino/jenkins-slave-gradle/
+	https://hub.docker.com/r/cnservices/jenkins-slave-gradle/
 
 ## Tools Installed ##
 
@@ -31,7 +31,7 @@ Jenkins Slave for Gradle builds. Docker image based on Gradle official image.
 
 To add custom certificates and root CAs, create a new Dockerfile and import them with the following code.
 
-	FROM jnonino/jenkins-slave-gradle
+	FROM cnservices/jenkins-slave-gradle
 	LABEL maintainer="Julian Nonino <noninojulian@gmail.com>"
 
 	# Trust Root CA
