@@ -4,11 +4,11 @@
 [![](hhttps://img.shields.io/docker/build/cnservices/jenkins-slave-gradle)](https://hub.docker.com/r/cnservices/jenkins-slave-gradle/)
 [![](https://img.shields.io/docker/automated/cnservices/jenkins-slave-gradle)](https://hub.docker.com/r/cnservices/jenkins-slave-gradle/)
 [![](https://img.shields.io/docker/stars/cnservices/jenkins-slave-gradle)](https://hub.docker.com/r/cnservices/jenkins-slave-gradle/)
-[![](https://img.shields.io/github/license/cn-cicd/jenkins-slave-gradle)](https://github.com/cn-cicd/jenkins-slave-gradle)
-[![](https://img.shields.io/github/issues/cn-cicd/jenkins-slave-gradle)](https://github.com/cn-cicd/jenkins-slave-gradle)
-[![](https://img.shields.io/github/issues-closed/cn-cicd/jenkins-slave-gradle)](https://github.com/cn-cicd/jenkins-slave-gradle)
-[![](https://img.shields.io/github/languages/code-size/cn-cicd/jenkins-slave-gradle)](https://github.com/cn-cicd/jenkins-slave-gradle)
-[![](https://img.shields.io/github/repo-size/cn-cicd/jenkins-slave-gradle)](https://github.com/cn-cicd/jenkins-slave-gradle)
+[![](https://img.shields.io/github/license/cn-docker/jenkins-slave-gradle)](https://github.com/cn-docker/jenkins-slave-gradle)
+[![](https://img.shields.io/github/issues/cn-docker/jenkins-slave-gradle)](https://github.com/cn-docker/jenkins-slave-gradle)
+[![](https://img.shields.io/github/issues-closed/cn-docker/jenkins-slave-gradle)](https://github.com/cn-docker/jenkins-slave-gradle)
+[![](https://img.shields.io/github/languages/code-size/cn-docker/jenkins-slave-gradle)](https://github.com/cn-docker/jenkins-slave-gradle)
+[![](https://img.shields.io/github/repo-size/cn-docker/jenkins-slave-gradle)](https://github.com/cn-docker/jenkins-slave-gradle)
 
 Jenkins Slave for Gradle builds. Docker image based on Gradle official image.
 
